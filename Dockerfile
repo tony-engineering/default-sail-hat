@@ -1,3 +1,4 @@
-FROM codercom/ubuntu-dev:latest
+FROM ubuntu
 
-RUN touch lol
+COPY ~/.gitconfig ~/.gitconfig
+RUN sudo chown user:user ~/.gitconfig
