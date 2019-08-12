@@ -1,3 +1,3 @@
-FROM ubuntu
+FROM codercom/ubuntu-dev:latest
 
-ADD touch lol
+RUN touch lol
