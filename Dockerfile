@@ -1,3 +1,3 @@
 FROM ubuntu
 
-COPY .gitconfig ~/.gitconfig
+COPY .gitconfig ~
