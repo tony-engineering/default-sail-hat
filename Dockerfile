@@ -1,3 +1,3 @@
 FROM ubuntu
 
-ADD .gitconfig /home/user/.gitconfig
+ADD touch lol
